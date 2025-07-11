@@ -1,0 +1,609 @@
+# Learn-Cpp-Programming
+👉️C++ PROGRAMMING CHEETSHEET
+
+👉️INTRODUCTION
+
+C++ is high level object oriented programming language developed by bajrne stroustrup in 1980
+
+at Bell
+
+👉️INPUT OUTPUT OBJECT
+
+cout<<"This statement display output on screen";
+
+cin>>varname; -- This statement take output from user
+
+👉️BASIC SYNTAX
+
+PROCEDURAL C++ SYNTAX
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+Statements
+
+}
+
+OBJECT ORIENTED C++ SYNTAX
+
+class classname
+
+{
+
+Section :
+
+Datamembers
+Section:
+
+Memberfunction()
+
+{
+
+}
+
+};
+
+Int main()
+
+{
+
+Classname objectname;
+
+Objectname memberfunctionname();
+
+Objectname datamembername;
+
+}
+
+👉️COMMENTS
+
+single line. \\Comments single line
+
+Multiline. \* comment multiline*\
+
+👉️DATATYPES
+
+Int. Float. Char. Double. String. Array. Pointer. Structure. Union
+
+👉️KEYWORDS
+
+There are mainly keywords in c++
+
+👉️CONDITIONAL STATEMENTS
+
+1....if(condition)
+
+{Statement}
+
+2...if(condition)
+
+{Statements}
+
+else
+
+{Statements}
+
+3....if(condition)
+
+{Statements}
+
+else if(condition)
+
+{Statements}
+
+else if(condition)
+
+{Statements}
+
+4.....if(condition1)
+
+{
+
+if(condition2)
+
+{Statements}
+
+else
+
+{Statements}
+
+}
+
+else
+
+{
+
+if(condition2)
+
+{Statements}
+
+else
+
+{Statements}
+}
+
+👉️SYNTAX OF SOME IMPORTANT CONCEPT
+
+1...Variable syntax
+
+Datatype varname=value;
+
+2...Array syntax
+
+Datatype arrayname[size]={value};
+
+3...String syntax
+
+Char datatype stringname[size]="value";
+
+4...Pointer syntax
+
+Datatype *pointer name=&Variable name;
+
+5....Structure syntax
+
+Struct structurename
+
+{
+
+Members of structure
+
+};
+
+1..struct variable
+
+Struct structurename variable;
+
+6...Union syntax
+
+Union unionname
+
+{
+
+Member of union
+
+};
+
+1..union variable
+
+Union unionname variable;
+
+7... Function syntax
+
+1..Function defination
+
+Returntype functionname(formal argument)
+
+{
+
+Code of block
+
+}
+
+2..Function call
+
+Functionname(Actual argument);
+
+3.. Function declaration
+
+Returntype functionname();
+
+8...File operation
+
+1...fopen(file pointer,"file mode"); -- opening new file
+2...fclose(file pointer); --Closing new file
+
+3...fprintf(file pointer,"content of that file"); --writing file
+
+👉️LOOPING STATEMENT
+
+1...while(condition)
+
+{
+
+Statements
+
+}
+
+2...do
+
+{
+
+Statements
+
+}while(condition);
+
+3...for(initialisation; condition; incre/decre)
+
+{
+
+Statements
+
+}
+
+👉️SWITCH CASE
+
+switch(expression)
+
+{
+
+Case 1:
+
+Statements
+
+Break;
+
+Case 2:
+
+Statement
+
+Break;
+
+Default:
+
+Statement
+
+Break;
+
+}
+
+👉️ OPERATORS
+
+1... Arithmetic operators
+
+(+). Addition
+
+(-). Subtraction
+
+(*). Multiplication
+
+(/). Division
+
+(%). Modulus
+
+2... Relational operators
+
+(>). Greater than
+
+(<). Less than
+
+(>=). Greater than equal to
+(<=). Less than equal to
+
+(==). Equal to equal to
+
+(!=). Not equal to
+
+3...Logical operators
+
+(&&). Logical and
+
+(||). Logical or
+
+(!). Logical not
+
+4...Increment/Decrement operators
+
+(++). Increment
+
+(--). Decrement
+
+5...Ternary operators
+
+(?). Question mark
+
+(:). Colon
+
+6...Assignment operators
+
+(=). Equal to
+
+👉️ OBJECT ORIENTED PROGRAMMING
+
+👉️CLASS AND OBJECT
+
+Class classname. ---Class declaration
+
+{
+
+Datamembers
+
+Member function
+
+};
+
+Class name objectname; ---Object declaration
+
+👉️ ENCAPSULATION
+
+Bind multiple datamembers and method in single unit
+
+👉️ INHERITANCE
+
+Creating new class from existing class
+
+Extend keyword is used to provide inheritance
+
+Class classname. Parent class
+
+{
+
+Properties
+
+}
+
+Class classname1 : public classname Child class
+
+{
+
+Properties
+
+}
+
+There are mainly 5 types of inheritance
+Single
+
+Multiple
+
+Multilevel
+
+Hierarchical
+
+Hybrid
+
+👉️DATA ABSTRACTION
+
+Hiding low level details from general users by using some section
+
+1..Public
+
+2..Private
+
+3..Protected
+
+Class classname
+
+{
+
+Section:
+
+Datamembers
+
+Methods
+
+};
+
+👉️ POLYMORPHISM
+
+Showing different behaviour according to situation
+
+There are mainly 2 types of Polymorphism
+
+1..Compile time
+
+2..Run time
+
+In Polymorphism inheritance is present
+
+👉️Function overloading/Method overloading
+
+Single class content multiple same name function with different no of parameters
+
+Class classname
+
+{
+
+Funname()
+
+{
+
+}
+
+Funname(argu)
+
+{
+
+}
+
+};
+
+👉️ Function overriding
+
+Multiple class content same name function and inheritance is must between them
+
+Class classname
+
+{
+
+Funname()
+
+{
+
+}
+
+};
+
+Class classname1: public classname
+{
+Funname()
+
+{
+
+}
+
+};
+
+👉️MEMBER FUNCTION DECLARATION
+
+1...INSIDE CLASS
+
+class classname
+
+{
+
+Section:
+
+Returntype functionname()
+
+{
+
+}
+
+};
+
+2...OUTSIDE CLASS
+
+class classname
+
+{
+
+Section :
+
+Returntype functionname();
+
+};
+
+Returntype classname::functionname()
+
+{
+
+}
+
+👉️STATIC DATAMEMBERS AND MEMBER FUNCTIONS
+
+class classname
+
+{
+
+Section :
+
+Static datatype datamembername;
+
+Static return type memberfunctionname ();
+
+};
+
+Datatype classname:: datamembername=value;
+
+Return type classname:: memberfunctionname ()
+
+{
+
+}
+
+👉️MEMORY ALLOCATION FOR OBJECT
+
+sizeof(objectname);
+
+This function is used to checking size of datamembers and object
+
+CONSTRUCTOR
+
+The special type of functions which not have any return type
+
+Which name is similar to class name which automatically called at time of object creation
+Syntax
+
+Class classname
+
+{
+
+Classname()
+{
+Constructor
+
+}
+
+};
+
+Class name objname;
+
+There are mainly 4 types of constructor
+
+1...Default
+
+2...Parameterised
+
+3...Copy
+
+4...Dynamic
+
+👉️VIRTUAL CLASS
+
+This class are used to avoid ambiguity problem of hybrid inheritance
+
+Virtual keyword is used to declare virtual class
+
+Syntax
+
+Class child : virtual access specifier parent
+
+{
+
+};
+
+👉️VIRTUAL FUNCTION
+
+Virtual keyword is used to declare virtual function
+
+This function are used for achieving the function overriding
+
+Syntax
+
+Virtual returntype functionname()
+
+{
+
+}
+
+👉️PURE VIRTUAL FUNCTION
+
+Virtual keyword is used to declare pure virtual function
+
+This function used for achieving abstraction
+
+It must declare in parent class with default value zero
+
+This must initialize or define by child
+
+Class parent
+
+{
+
+Virtual returntype functionname ()=0;
+
+};
+
+Class child : public parent
+
+{
+
+Returntype functionname()
+
+{
+
+}
+
+};
+
+👉️ ABSTRACT CLASS
+
+The class which must contains one pure virtual function that class is known as abstract class
+
+Syntax
+
+Class parent
+
+{
+
+Virtual returntype functionname ()=0;
+};
+
+Created by
+
+S rahire
